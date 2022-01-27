@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<head>
+  
+</head>
+<body>
+<div id="main" style="overflow:scroll;">
+  <h1 id="title">The Crocodile Hunter</h1>
+  <div id="img-div" style="overflow:scroll">
+    <img id="image" src="https://i.ibb.co/LRN9GJx/AE573538-EA00-4-BC8-8263-663-DAD3075-A7.jpg" alt="Crocodile Hunter hugging baby crocodile">
+    <div><p id="caption">Steve Irwin hugs baby crocodile.</p></div>
+  </div>
+  <div id="tribute-info">
+    <div style="overflow:scroll">
+    <div id="container">
+      <button class="option" id="info" style="background-color:lightgray" onclick='selector("info");'>Info</button>
+      <button class="option" id="career" onclick="selector('career');">Wildlife Warriors</button>
+      <button class="option" id="entertainment" onclick="selector('entertainment');">Entertainment</button>
+      <button class="option" id="family" onclick="selector('family');">Family</button>
+      <button class="option" id="legacy" onclick="selector('legacy');">Legacy</button>
+    </div>
+    </div>
+    <div id="para-box">
+      <p id="paragraph">"Steve Irwin was born in 1962 to Lyn and Bob Irwin.<br>When he was a child he was taught about various reptiles by his father, and he started handling crocodiles at the age of nine.<br>He grew up to become Crocodile Hunter, a world famous nature conservationist, and zoo keeper.<br> He was involved in many media campaigns, and he would pour the payments he earned into his wildlife fund.<br> He was a massive TV personailty and actively promoted conservationalism until he died in 2006 after being pierced in the chest by a stingray barb.</p>
+    </div>
+  </div>
+  <br><br>
+  <div id="tribute-links">
+    <a id="tribute-link" href= "https://en.wikipedia.org/wiki/Steve_Irwin" target="_blank">Visit the Crocodile Hunter's Wikipedia page</a>
+    <br>
+    <a href= "https://www.australiazoo.com.au/" target="_blank">Visit the Australia Zoo website</a>
+  </div>
+  <br>
+</div>
+</body>
