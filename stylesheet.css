@@ -1,0 +1,66 @@
+body {
+  background-image: url('https://i.ibb.co/z77W3Vy/9-AE8-C5-E1-185-A-4-C23-A6-C9-A36-A4-A1685-F0.jpg');
+}
+#title {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url('https://imgur.com/download/Yu3xHiy/');
+}
+#main {
+  margin:auto;
+  width:50%;
+  height:90vw;
+  background-color: white;
+  border: 6px ridge black
+}
+#img-div {
+  width:100%;
+  height:45%;
+}
+#image {
+  width:50%;
+  padding-left:25%;
+}
+#caption {
+  text-align:center;
+}
+#tribute-info {
+  width:100%;
+  height:33%;
+}
+.option {
+  color: black;
+  border: 3px solid black;
+  background-color: lightgreen;
+  padding: 10px;
+}
+#container {
+  width: 70%;
+  margin-left: 15%;
+  display:flex;
+}
+#para-box {
+  overflow: scroll;
+  background-color: lightgrey;
+  width:70%;
+  height:60%;
+  margin-left: 15%;
+}
+#paragraph {
+  overflow: scroll;
+}
+#tribute-links {
+  text-align:center;
+}
+@media screen and (max-width:1000px){
+  #main{
+    width:90%;
+    height: 100%;
+  }
+  .option{
+    width:100%;
+  }
+  #container{
+    flex-direction: column;
+  }
+}
